@@ -1,5 +1,5 @@
 {
-    "name": "studioraz/module-product-attribute-option-sorting",
+    "name": "studioraz/magento2-product-attribute-option-sorting",
     "description": "Magento 2 module for sorting product attribute options",
     "type": "magento2-module",
     "license": [
