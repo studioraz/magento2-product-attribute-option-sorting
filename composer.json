@@ -1,0 +1,20 @@
+{
+    "name": "studioraz/module-product-attribute-option-sorting",
+    "description": "Magento 2 module for sorting product attribute options",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=8.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SR\\ProductAttributeOptionSorting\\": ""
+        }
+    }
+}
