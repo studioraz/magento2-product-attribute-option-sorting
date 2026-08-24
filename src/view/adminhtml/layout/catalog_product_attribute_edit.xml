@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="js">
+            <block class="Magento\Backend\Block\Template"
+                   name="sr_product_attribute_option_sorting_js"
+                   template="SR_ProductAttributeOptionSorting::attribute/option-sorting-js.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

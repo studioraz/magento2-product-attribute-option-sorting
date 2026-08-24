@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="product_attribute_form_build_main_tab">
+        <observer name="sr_product_attribute_option_sorting_add_field"
+                  instance="SR\ProductAttributeOptionSorting\Observer\AddSortModeField"/>
+    </event>
+    <event name="catalog_entity_attribute_save_after">
+        <observer name="sr_product_attribute_option_sorting_sort_after_save"
+                  instance="SR\ProductAttributeOptionSorting\Observer\SortOptionsAfterAttributeSave"/>
+    </event>
+</config>
